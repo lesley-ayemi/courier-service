@@ -19,6 +19,6 @@ Route::get('/', function () {
 
 Route::get('/index', function(){
 
-    return view('index');
+    return view('front.index');
 
 });
